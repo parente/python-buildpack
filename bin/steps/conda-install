@@ -65,6 +65,7 @@ fi
 
 echo "-----> Installing Dependencies..."
 $CONDA_BIN/conda update --yes --quiet conda
+$CONDA_BIN/conda update --yes --quiet conda-env
 $CONDA_BIN/conda install --yes --quiet pip
 
 CONDA_ENV="dep_env"
